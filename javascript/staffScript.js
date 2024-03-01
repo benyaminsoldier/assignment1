@@ -1,11 +1,10 @@
 
 const htmlPages = [
-    "C:/Users/LENOVO/Documents/Canada/Calgary/BVC/courses/Winter2024/SODV1201/assignement1/index.html",
-    "C:/Users/LENOVO/Documents/Canada/Calgary/BVC/courses/Winter2024/SODV1201/assignement1/html/marks.html",
-    "C:/Users/LENOVO/Documents/Canada/Calgary/BVC/courses/Winter2024/SODV1201/assignement1/html/temp.html",
-    "C:/Users/LENOVO/Documents/Canada/Calgary/BVC/courses/Winter2024/SODV1201/assignement1/html/staff.html"
+    "../index.html",
+    "../html/marks.html",
+    "../html/temp.html",
+    "../html/staff.html"
 ];
-
 function navBarClickListener (htmlPagesArray){
     let navBar = document.querySelectorAll('nav ul li')
     for(let i = 0; i < navBar.length; i++){
